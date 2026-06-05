@@ -7,6 +7,86 @@
     <title>Document</title>
 </head>
 <body>
+   <div class="container">
+    <div class="sidebar">
+        
+        <div class="logo-dark">
+        <img src="image/odin-lined.png" alt="">
+        <h1>ODIN</h1>
+        
+        </div>
+        <P class="photo-credit">  
+            Photo by 
+            <a href="https://unsplash.com/@haliewestphoto" target="_blank">
+            Halie West
+        </a>
+        <a href="https://unsplash.com/" target="_blank">
+            on Unsplash
+        </a>
+        </P>
+    </div>
+
+     <div class="content">
+    <div class="intro-text">
+         <p>
+          This is not a real online service! You know you need something
+        <br>like this in your life to help you realize your deepest dreams.
+          <span>Sign up now to get started.</span>
+        </p>
+
+        <p>You <em>know</em> you want to.</p>
+    </div>
+
+<form>
+    <div class="box">
+    <h2>let's do this</h2>
+    <div class="form-grid">
+     <div  class="form-group">
+        <label for="First-name">First Name</label>
+        <input id="first-name" name="first-name" type="text">
+    </div>
+     <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input id="last-name" name="last-name" type="text">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone-number">Phone Number</label>
+        <input id="phone-number" name="phone-number" type="tel" placeholder="+1 (555) 123-4567"
+  required>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password"   
+        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" 
+        title="Must be 8+ characters, include uppercase, lowercase, number & special character" required>
+    </div>
+    
+    <div class="form-group">
+    <label for="confirm-password">Confirm Password</label>
+    <input id="confirm-password" name="confirm-password" type="password" 
+    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" 
+        title="Must be 8+ characters, include uppercase, lowercase, number & special character" required>
+   </div>
+</div>
+</div>
+
+<button type="submit">Create Account</button>
+
+ <p class="login-text"> Already have an account?
+    <a href="#">Log in</a>
+ </p>
+
+</form>
+</div>
+  </div>
+</div>
+    
     
 </body>
 </html>
